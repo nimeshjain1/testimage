@@ -1,7 +1,8 @@
-ARG BASE_REGISTRY=registry.access.redhat.com
-ARG BASE_IMAGE=ubi7
-ARG BASE_TAG=7.7
-FROM $BASE_REGISTRY/$BASE_IMAGE:$BASE_TAG
+#ARG BASE_REGISTRY=registry.access.redhat.com
+#ARG BASE_IMAGE=ubi7
+#ARG BASE_TAG=7.7
+#pFROM $BASE_REGISTRY/$BASE_IMAGE:$BASE_TAG
+FROM registry.access.redhat.com/ubi7:7.7
 
 
 MAINTAINER "maintainer@dsop.io"
